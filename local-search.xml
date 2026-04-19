@@ -4,6 +4,19 @@
   
   
   <entry>
+    <title>从Vibe Coding 到Spec Coding</title>
+    <link href="/2026/04/18/spec-coding/"/>
+    <url>/2026/04/18/spec-coding/</url>
+    
+    <content type="html"><![CDATA[<h2 id="概念"><a href="#概念" class="headerlink" title="概念"></a>概念</h2><h3 id="Vibe-Coding"><a href="#Vibe-Coding" class="headerlink" title="Vibe Coding"></a>Vibe Coding</h3><p>Vibe Coding也叫氛围编程，就是通过自然语言，利用AI的一些编程工具（例如Cursor&#x2F;Claude等）进行编码开发，区分传统编程是开发者不需要知道具体的编程语言和语法，降低了开发的门槛。</p><p><strong>Vibe Coding的局限</strong></p><p>适合小型&#x2F;原型项目的快速开发，对于复杂&#x2F;大型项目，仍需要专业的工程师进行干预。</p><h3 id="Spec-Coding"><a href="#Spec-Coding" class="headerlink" title="Spec Coding"></a>Spec Coding</h3><p>Spec Coding（Spec-Driven-Development）也叫规范驱动开发，简称SSD。核心思想就是：先写清楚规范文档，在进行编码。先写清楚需要做什么，然后在按照任务清单去实现，而不是Vibe Coding中通过多轮对话或者想到哪在进行编码，我理解这是对Vibe Coding的一种补充，提升对复杂任务的成功率。</p><p>在传统的开发流程中，一般会有以下流程：<strong>需求提出</strong> -&gt; <strong>开发设计</strong> -&gt; <strong>编码</strong>，那在开发过程中会形成以下文档：</p><ul><li>requirements: 需求文档</li><li>design：设计文档</li><li>task：任务清单</li></ul><p>在SDD开发过程中，以上文档都是由AI生成，而不是人工生成，人工往往只需要审核，以往需要多天产出的文档，现在只需要分钟级别就能生成，大大提高了效率。</p><h2 id="框架及使用"><a href="#框架及使用" class="headerlink" title="框架及使用"></a>框架及使用</h2><p>那具体怎么进行Spec Coding呢？目前有一些开源的框架怎么使用，例如OpenSpec、SuperPowers等。<br>具体是通过定义SKILL，来规范AI生成相应的文档，达到先写规范文档，再进行编码的目的。</p>]]></content>
+    
+    
+    
+  </entry>
+  
+  
+  
+  <entry>
     <title>Claw-Code Agent 架构分析与工作流程（Python 实现版）</title>
     <link href="/2026/04/12/claw-code-python/"/>
     <url>/2026/04/12/claw-code-python/</url>
